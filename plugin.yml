@@ -1,0 +1,23 @@
+name: XplosiveNO
+main: me.Sanzennin.XplosiveNO.XplosiveNO
+version: 0.81
+author: Sanzennin
+description: >
+             Says NO with an attitude!
+commands:
+   xplosiveno:
+      description: Shows info.
+      permission: XplosiveNO.XplosiveNO
+      usage: /<command>
+   xno:
+      description: Says NO! to a player.
+      permission: XplosiveNO.XNO
+      usage: /<command> <player>
+
+permissions:
+  XplosiveNO.XplosiveNO:
+    description: Allows to view XNO info and credits
+    default: true
+  XplosiveNO.XNO:
+    description: Allows to use XNO
+    default: op
